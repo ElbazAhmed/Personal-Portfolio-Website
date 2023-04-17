@@ -12,11 +12,12 @@ nav{
     align-items: center;
     column-gap: 16px;
 }
+.nav-logo,
 .nav_toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
-    display: none;
 }
+.nav_toggle,
 .nav_close{
     display:none;
 }
@@ -29,7 +30,8 @@ nav{
     font-size: small;
     color: var(--title-color);
     transition: .3s;
+    align-items: center;
 }
-.active-link , .nav_link:hover {
+.nav_link:hover {
     color: var(--title-dark);
 }

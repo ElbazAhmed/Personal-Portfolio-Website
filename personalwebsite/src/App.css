@@ -1,3 +1,7 @@
+/*-------------tailwind---------------------*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /*google fonts------------------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
@@ -38,6 +42,16 @@
 html{
     scroll-behavior: smooth;
 }
+.container{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+}
+.grid{
+    display: grid;
+    gap:24px;
+}
 textarea{
     font-family: var(--font);
     font-size: var(--font-normal);
@@ -65,10 +79,9 @@ button{
 
 /*------Media-----------------------------------------------------------------*/
 @media screen and (max-width:992px) {
-    .Container{
-        margin-left: var(--m-24);
-        margin-right:var(--m-24) ;
-
+    .container{
+        margin-left: 24px;
+        margin-right:24px;
     }
 }
 @media screen and (max-width:768px) {
