@@ -1,9 +1,12 @@
-import Navbar from "./Navbar";
+import React from 'react';
+import './App.css';
+import Header from './components/header/Header';
+
 
 function App() {
   return (
     <div className="Container">
-      <Navbar />
+      <Header/>
 
     </div>
   );
