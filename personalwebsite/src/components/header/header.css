@@ -3,6 +3,7 @@
     position: fixed;
     top:0;
     left: 0;
+    z-index: 100;
     background-color: var(--body-color);
 }
 nav{
@@ -32,6 +33,7 @@ nav{
     transition: .3s;
     align-items: center;
 }
+.active-link,
 .nav_link:hover {
     color: var(--title-dark);
 }

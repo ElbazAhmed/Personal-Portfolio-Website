@@ -42,15 +42,14 @@
 html{
     scroll-behavior: smooth;
 }
-.container{
-    max-width: 968px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: blue;
-}
 .grid{
     display: grid;
     gap:24px;
+}
+.container{
+    max-width:986px;
+    padding:auto;
+    margin:auto;
 }
 textarea{
     font-family: var(--font);
