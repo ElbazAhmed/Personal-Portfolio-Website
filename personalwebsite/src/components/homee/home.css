@@ -1,0 +1,45 @@
+.home{
+    position:relative;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.intro{
+    max-width:540px;
+    text-align:center;
+}
+.home__img{
+    background:url(../../assets//Me.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    width:250px;
+    height:250px;
+    box-shadow:inset 0 0 0 9px rgb(255 255 255 /30%);
+    order:1;
+    justify-self:center;
+    margin-bottom:24px;
+    animation:profile__animate 8s ease-in-out infinite 1s;
+}
+
+@keyframes profile__animate{
+    0%{
+        border-radius:60% 40% 30% 70% /60% 30% 70% 40%;
+    }
+    50%{
+        border-radius:30% 60% 70% 40% /50% 60% 30% 60%;
+    }
+    100%{
+        border-radius:60% 40% 30% 70% /60% 30% 70% 40%;
+    }
+}
+.home__name{
+    font-weight:var(--font-bold);
+    margin-bottom:8px;
+}
+.home__socails{
+    gap:28px;
+    margin:24px 0;
+
+}

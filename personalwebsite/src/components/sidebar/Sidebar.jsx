@@ -32,7 +32,7 @@ const Sidebar = () => {
                     </li>
                     <li className="nav__item">
                         <a href="#contact" className="nav__link">
-                        <i class="uil uil-chat-bubble-user"></i>
+                        <i class="uil uil-comment"></i>
                         </a>
                     </li>
                 </ul>

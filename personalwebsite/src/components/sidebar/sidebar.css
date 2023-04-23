@@ -12,3 +12,23 @@
     justify-content:space-between;
     z-index:10;
 }
+
+.nav__list{
+    display:flex;
+    flex-direction:column;
+    row-gap:16px;
+
+}
+
+.nav__link{
+    font-size:24px;
+    color:var(--title-color);
+    font-weight:var(--font-bold); 
+
+}
+.copyright{
+    color:hsl(245,15%,65%);
+    font-size:small;
+    transform:rotate(-180deg);
+    writing-mode:vertical-rl;
+}
