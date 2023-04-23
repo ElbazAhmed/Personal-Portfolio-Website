@@ -113,6 +113,9 @@ img{
     background-color:var(--first-color);
     font-weight:var(--font-bold);
 }
+.btn:hover{
+    background-color:var(--title-color-dark);
+}
 
 @keyframes button-push{
     50%{

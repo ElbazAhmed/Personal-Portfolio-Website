@@ -1,8 +1,7 @@
 import React from 'react';
 import './home.css';
-import Me from '../../assets/Me.jpg';
-import scrollDown from './scrollDown';
 import HeaderSocial from './HeaderSocial';
+import ScrollDown from './ScrollDown';
 
 const Home = () => {
   return (
@@ -12,8 +11,8 @@ const Home = () => {
             <h1 className="home__name">Ahmed Elbaz</h1>
             <span className="home__education">I'm a Software Engineering Student</span>
             <HeaderSocial/>
-            <a href="#contact" className="btn">Contact Me<i class="uil uil-message "></i></a>
-            <scrollDown/>
+            <a href="#contact" className="btn">Contact Me</a>
+            <ScrollDown />
         </div>
     </section>
   )

@@ -26,6 +26,9 @@
     font-weight:var(--font-bold); 
 
 }
+.nav__link:hover{
+    color:var(--title-color-dark);
+}
 .copyright{
     color:hsl(245,15%,65%);
     font-size:small;

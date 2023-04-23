@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeaderSocial = () => {
   return (
-    <div className="home__socails">
+    <div className="home__socails flex">
         <a href="https://github.com/ElbazAhmed" className="home__social-link" target="_blank">
         <i class="uil uil-github"></i>
         </a>
@@ -11,9 +11,6 @@ const HeaderSocial = () => {
         </a>
         <a href="#" className="home__social-link" target="_blank">
         <i class="uil uil-twitter"></i>
-        </a>
-        <a href="#" className="home__social-link" target="_blank">
-        <i class="uil uil-instagram"></i>
         </a>
         <a href="#" className="home__social-link" target="_blank">
         <i class='bx bxl-stack-overflow'></i>
