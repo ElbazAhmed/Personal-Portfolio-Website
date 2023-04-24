@@ -4,6 +4,8 @@ import Sidebar from './components/sidebar/Sidebar';
 import Home from './components/homee/Homee';
 import About from './components/about/About';
 import Services from './components/services/Services';
+import Resume from './components/resume/Resume';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Home />
         <About />
         <Services />
+        <Resume />
+        <Contact />
       </main>
     </>
   );
