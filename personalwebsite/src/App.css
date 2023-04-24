@@ -42,11 +42,7 @@ html{
     display: grid;
     gap:24px;
 }
-.container{
-    max-width:986px;
-    padding:auto;
-    margin:auto;
-}
+
 textarea{
     font-family: var(--font);
     font-size: var(--font-normal);
@@ -93,6 +89,7 @@ img{
     padding-bottom:32px;
 }
 .section__title{
+    font-size:large;
     margin-left:14px;
     font-weight:var(--font-bold);
     position:relative;
@@ -100,6 +97,11 @@ img{
 }
 .section__title:before{
     content:'';
+    height:36px;
+    width:36px;
+    position:absolute;
+    left:-14px;
+    top:14px;
 }
 
 .btn{

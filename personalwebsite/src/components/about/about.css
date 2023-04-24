@@ -1,0 +1,17 @@
+.about__img{
+    width:150px;
+    height:150px;
+    border-radius:20px;
+}
+.about__container{
+    grid-template-columns:3fr 9fr;
+    column-gap:30px;
+}
+.about__data{
+    padding:30px;
+    backgound-color:var(--cont-color);
+    box-shadow:var(--shadow);
+    border-radius:var(--border-radius);
+    grid-template-columns:repeat(2, 1fr);
+    column-gap:30px;
+}
