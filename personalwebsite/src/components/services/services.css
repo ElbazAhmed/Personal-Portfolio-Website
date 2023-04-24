@@ -1,0 +1,23 @@
+.services__container{
+    grid-template-columns:repeat(3,1fr);
+    column-gap:30px;
+}
+.services__card{
+    text-align:center;
+    padding:30px;
+    border-radius:var(--border-radius);
+    background-color:var(--cont-color);
+    transition:all 0.3s ease-in-out;
+    box-shadow:var(--shadow);
+}
+.services__card:hover{
+    transform:translateY(-10px);
+}
+.services__img{
+    margin:auto;
+    margin-bottom:20px;
+}
+.services__title{
+    font-size:;
+    margin-bottom:16px;
+}

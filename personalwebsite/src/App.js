@@ -3,15 +3,18 @@ import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
 import Home from './components/homee/Homee';
 import About from './components/about/About';
-
+import Services from './components/services/Services';
 
 function App() {
   return (
-    <div>
+    <>
       <Sidebar />
-      <Home />
-      <About />
-    </div>
+      <main className='main'>
+        <Home />
+        <About />
+        <Services />
+      </main>
+    </>
   );
 }
 
