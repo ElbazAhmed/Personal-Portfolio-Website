@@ -2,7 +2,7 @@
     position:fixed;
     top:0;
     left:0;
-    backgound:var(--body-color);
+    background:var(--body-color);
     border-right:1px solid rgba(0,0,0,0.05);
     padding:40px;
     width:110px;
@@ -11,6 +11,7 @@
     flex-direction:column;
     justify-content:space-between;
     z-index:10;
+    transition:.3s;
 }
 
 .nav__list{
@@ -45,15 +46,25 @@
     width:45px;
     background-color:var(--body-color);
     border:1px solid #e8dfec;
-    display:flex;
+    border-radius:10px;
+    display:none;
     justify-content:center;
     align-items:center;
     z-index:1;
+    transition:.3s;
 }
 
 @media screen and (max-width:1024px) {
     .aside{
         left:-110px;
     }
-
+    .nav__toggle{
+        display:flex;
+    }
+    .nav__toggle-open{
+        left:140px;
+    }
+    .show-menu{
+        left:0;
+    }
 }

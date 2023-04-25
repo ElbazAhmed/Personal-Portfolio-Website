@@ -56,3 +56,15 @@
         grid-template-columns:1fr;
     }
 }
+@media screen and (max-width:350px) {
+    .timeline__item{
+        padding-left:30px;
+        padding-bottom:30px;
+    }
+    .timeline__item::before{
+        left:0px;
+    }
+    .timeline .uil{
+        left:-9px;
+    }
+}
