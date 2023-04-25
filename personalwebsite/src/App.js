@@ -6,6 +6,8 @@ import About from './components/about/About';
 import Services from './components/services/Services';
 import Resume from './components/resume/Resume';
 import Contact from './components/contact/Contact';
+import Skills from './components/skills/Skills';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -14,9 +16,11 @@ function App() {
       <main className='main'>
         <Home />
         <About />
+        <Skills />
         <Services />
         <Resume />
         <Contact />
+        <Footer />
       </main>
     </>
   );
