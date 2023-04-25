@@ -4,7 +4,7 @@ import './sidebar.css'
 
 const Sidebar = () => {
   return (
-
+    <>
     <aside className="aside">
         <a href="index.html" className="nav__logo">AE.</a>
         <nav className="nav">
@@ -43,6 +43,10 @@ const Sidebar = () => {
         </div>
 
     </aside>
+    <div className="nav__toggle">
+        <i class="uil uil-bars"></i>
+    </div>
+    </>
   )
 }
 

@@ -41,3 +41,18 @@
     font-size:large;
     margin:8px 0;
 }
+@media screen and (max-width:1024px) {
+    .resume__container{
+        grid-template-columns:450px;
+        justify-content:center;
+        row-gap:30px;
+    }
+    .timeline__item::before{
+        left:2px;
+    }
+}
+@media screen and (max-width:576px) {
+    .resume__container{
+        grid-template-columns:1fr;
+    }
+}
