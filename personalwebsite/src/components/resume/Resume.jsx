@@ -2,7 +2,6 @@ import React from 'react'
 import './resume.css'
 import Data from './Data'
 import Card from './Card'
-import graduation_cap from '../../assets/graduation-cap.svg'
 
 const Resume = () => {
   return (

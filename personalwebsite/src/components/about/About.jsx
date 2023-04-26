@@ -11,7 +11,7 @@ const About = () => {
             <div className="about__data grid">
                 <div className="about__info">
                     <p className="about__description">I'm Ahmed Elbaz, Software engineering student at INPT (National Institute of Posts and Telecommunications)</p>
-                    <a href="" className="btn">Download CV</a>
+                    <a href="#" className="btn">Download CV</a>
                 </div>
                 <div className="about__skills grid">
                     <div className="skills__data">
