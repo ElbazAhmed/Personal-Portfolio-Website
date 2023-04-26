@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Ahmed-Elbaz/static/css/main.ccf0d2ea.css",
+    "main.js": "/Ahmed-Elbaz/static/js/main.f5ae6d04.js",
+    "static/media/Me.jpg": "/Ahmed-Elbaz/static/media/Me.d9cca123d48a88385510.jpg",
+    "static/media/projet1.PNG": "/Ahmed-Elbaz/static/media/projet1.aef1a481e26ec80e3497.PNG",
+    "static/media/node.svg": "/Ahmed-Elbaz/static/media/node.a7f58e04331fa33968ff44646cf48a09.svg",
+    "static/media/postman.svg": "/Ahmed-Elbaz/static/media/postman.6f7761a271448f341c816b91661c7a96.svg",
+    "static/media/mysql.svg": "/Ahmed-Elbaz/static/media/mysql.6ec7e14e859211ef32c4cd92898afdac.svg",
+    "static/media/reactjs.svg": "/Ahmed-Elbaz/static/media/reactjs.6b20949bf067ba9751b61b239d4da31b.svg",
+    "static/media/oracle.svg": "/Ahmed-Elbaz/static/media/oracle.8ccca772c6883b53f7e8b7890b17bdc8.svg",
+    "static/media/java.svg": "/Ahmed-Elbaz/static/media/java.a47df59bde269973ce4cfb6004c847cb.svg",
+    "static/media/mongo.svg": "/Ahmed-Elbaz/static/media/mongo.b4019c3a231011aae08a5c602d33874b.svg",
+    "static/media/python.svg": "/Ahmed-Elbaz/static/media/python.f8da9c03ebd4dc20d0b1154a581c7be4.svg",
+    "static/media/javascript.svg": "/Ahmed-Elbaz/static/media/javascript.2a0084391f0a1b73ddf4df21aa3d33c2.svg",
+    "static/media/bootstrap.svg": "/Ahmed-Elbaz/static/media/bootstrap.903d83a53a5b4ce95f463596107e56e5.svg",
+    "static/media/git.svg": "/Ahmed-Elbaz/static/media/git.281c0c8e59032989f60dd53bdae59d37.svg",
+    "static/media/figma.svg": "/Ahmed-Elbaz/static/media/figma.90a1a18df125ef2d0c6fcacd331e6549.svg",
+    "index.html": "/Ahmed-Elbaz/index.html",
+    "static/media/logo.svg": "/Ahmed-Elbaz/static/media/logo.8c5752e2c9f2102e17f82fc85bbbbc74.svg",
+    "static/media/tailwind.svg": "/Ahmed-Elbaz/static/media/tailwind.5c8d8af30d90ddb0b7684f2a5e3207e3.svg",
+    "static/media/css.svg": "/Ahmed-Elbaz/static/media/css.64933fbbcec7a141484f49f413d3fa71.svg",
+    "static/media/html.svg": "/Ahmed-Elbaz/static/media/html.b00c028af4d67b8065194b3f14ddfb4c.svg",
+    "static/media/logo1.svg": "/Ahmed-Elbaz/static/media/logo1.9cc61ed11e49615ff9104d6b52632884.svg",
+    "static/media/logo2.svg": "/Ahmed-Elbaz/static/media/logo2.050e872def450fcee5f8f52718eda244.svg",
+    "static/media/logo3.svg": "/Ahmed-Elbaz/static/media/logo3.0dec1521d1fdcfc5a8cc5ffa23e3ad50.svg",
+    "main.ccf0d2ea.css.map": "/Ahmed-Elbaz/static/css/main.ccf0d2ea.css.map",
+    "main.f5ae6d04.js.map": "/Ahmed-Elbaz/static/js/main.f5ae6d04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccf0d2ea.css",
+    "static/js/main.f5ae6d04.js"
+  ]
+}
