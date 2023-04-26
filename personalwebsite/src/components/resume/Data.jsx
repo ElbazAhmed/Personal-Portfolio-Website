@@ -1,15 +1,15 @@
 
 
 const Data = [
-    {
-       id:1,
-       category:"education",
-       logo:"uil uil-graduation-cap",
-       year:"2019-2020",
-       title:"Baccalaureate",
-       desc:"Math’s Science A",
+   {
+      id:1,
+      category:"education",
+      logo:"uil uil-graduation-cap",
+      year:"2022-Present",
+      title:"INPT School of Engineering",
+      desc:"Advanced Software Engineering for Digital services ",
 
-    },
+   },
     {
        id:2,
        category:"education",
@@ -20,14 +20,14 @@ const Data = [
 
     },
     {
-        id:3,
-        category:"education",
-        logo:"uil uil-graduation-cap",
-        year:"2022-Present",
-        title:"INPT School of Engineering",
-        desc:"Advanced Software Engineering for Digital services ",
- 
-     },
+      id:3,
+      category:"education",
+      logo:"uil uil-graduation-cap",
+      year:"2019-2020",
+      title:"Baccalaureate",
+      desc:"Math’s Science A",
+
+   },
      {
         id:4,
         category:"experience",

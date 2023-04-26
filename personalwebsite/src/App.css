@@ -149,9 +149,8 @@ img{
     font-weight:bold;
     white-space:nowrap;
     line-height:1px;
-    color:var(--body-color);
+    color:hsl(0,0%,90%);
     font-family:Caveat,cursive;
-    text-shadow:0.2px 0.2px 0px var(--title-color);
 }
 /*------Media-----------------------------------------------------------------*/
 @media screen and (max-width:1024px) {

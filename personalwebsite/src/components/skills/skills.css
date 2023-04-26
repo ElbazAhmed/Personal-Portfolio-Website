@@ -28,8 +28,9 @@
     align-items:flex-start;
     row-gap:16px;
 }
-.skills__dataa i {
-    font-size:30px;
+.skills__dataa i img{
+    margin:auto;
+    padding-bottom:10px;
 }
 @media screen and (max-width:1024px) {
     .skills__container{

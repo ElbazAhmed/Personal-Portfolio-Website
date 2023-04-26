@@ -1,4 +1,8 @@
 import React from 'react'
+import reactjs from '../../assets/logos/reactjs.svg'
+import bootstrap from '../../assets/logos/bootstrap.svg'
+import tailwind from '../../assets/logos/tailwind.svg'
+import node from '../../assets/logos/node.svg'
 
 const Frameworks = () => {
   return (
@@ -7,25 +11,25 @@ const Frameworks = () => {
         <div className="skills__box">
             <div className="skills__group">
                 <div className="skills__dataa">
-                <i class='bx bxl-react' ></i>
+                <i class="uil"><img src={reactjs} alt="react" /></i>
                 <div>
                     <h3 className="skills__name">React js</h3>
                 </div>
                 </div>
                 <div className="skills__dataa">
-                <i class='bx bxl-bootstrap' ></i>
+                <i class="uil"><img src={bootstrap} alt="bootstrap" /></i>
                 <div>
                     <h3 className="skills__name">BootStrap</h3>
                 </div>
                 </div>
                 <div className="skills__dataa">
-                <i class='bx bxl-tailwind-css' ></i>
+                <i class="uil"><img src={tailwind} alt="tailwind" /></i>
                 <div>
                     <h3 className="skills__name">Tailwind CSS</h3>
                 </div>
                 </div>
                 <div className="skills__dataa">
-                <i class='bx bxl-nodejs' ></i>
+                <i class="uil"><img src={node} alt="node" /></i>
                 <div>
                     <h3 className="skills__name">Node js</h3>
                 </div>

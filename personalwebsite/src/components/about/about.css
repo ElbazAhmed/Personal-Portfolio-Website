@@ -61,15 +61,15 @@
 }
 .development{
     width:60%;
-    background-color:blue;
+    background-color:var(--title-color);
 }
 .ui__design{
     width:70%;
-    background-color:blue;
+    background-color:var(--title-color);
 }
 .java__dev{
     width:50%;
-    background-color:blue;
+    background-color:var(--title-color);
 }
 
 
