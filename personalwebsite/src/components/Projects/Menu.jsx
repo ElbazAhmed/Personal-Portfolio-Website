@@ -1,7 +1,9 @@
+import projet1 from '../../assets/projet1.PNG'
+
 const Menu = [
     {
       id: 1,
-      image: '',
+      image: projet1,
       title: "Personal Website",
       category: "Web Development",
     },
@@ -10,7 +12,7 @@ const Menu = [
         image: '',
         title: "Water drink reminder",
         category: "UX/UI Design",
-      },
+    },
 ]
 
 export default Menu

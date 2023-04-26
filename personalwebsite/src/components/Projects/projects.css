@@ -34,7 +34,7 @@
     opacity:0;
 }
 .work__card:hover .work__mask{
-    opacity:0.9;
+    opacity:0.8;
 }
 .work__category{
     color:#fff;
@@ -83,4 +83,23 @@
 .work__card:hover .work__category{
     opacity:1;
     transform:translateY(0);
+}
+
+@media screen and (max-width:1024px) {
+    .work__filters{
+        justify-content:center;
+    }
+    .work__container{
+        grid-template-columns:repeat(2,330px);
+        justify-content:center;
+        row-gap:30px;
+    }
+}
+@media screen and (max-width:768px) {
+    .work__container{
+        grid-template-columns:310px;
+    }
+    .work__filters{
+        row-gap:4px;
+    }
 }

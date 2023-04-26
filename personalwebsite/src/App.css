@@ -4,6 +4,7 @@
 @tailwind utilities;
 /*google fonts------------------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins:wght@400;500;600;700;800&display=swap');
 
 
 /*Variables--------------------------------------------------------------------------------*/
@@ -134,6 +135,23 @@ img{
 
 .btn:hover{
     animation:button-push 0.3s linear 1;
+}
+
+.section__bg-wrapper{
+    position:absolute;
+    bottom:28px;
+    left:50%;
+    transform:translateX(-53%);
+    z-index:-1;
+}
+.bg__title{
+    font-size: clamp(3.75rem, -1.4429rem + 23.7389vw, 13.75rem);
+    font-weight:bold;
+    white-space:nowrap;
+    line-height:1px;
+    color:var(--body-color);
+    font-family:Caveat,cursive;
+    text-shadow:0.2px 0.2px 0px var(--title-color);
 }
 /*------Media-----------------------------------------------------------------*/
 @media screen and (max-width:1024px) {

@@ -13,6 +13,10 @@ const Home = () => {
             <HeaderSocial/>
             <a href="#contact" className="btn">Contact Me</a>
             <ScrollDown />
+
+        </div>
+        <div className="section__bg-wrapper">
+          <span className="bg__title">Web Developer</span>
         </div>
     </section>
   )
