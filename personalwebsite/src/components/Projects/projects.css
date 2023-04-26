@@ -101,5 +101,6 @@
     }
     .work__filters{
         row-gap:4px;
+        font-size:small;
     }
 }

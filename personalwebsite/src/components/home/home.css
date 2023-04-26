@@ -106,3 +106,8 @@
     }
 
 }
+@media screen and (max-width:450px) {
+    .section__bg-wrapper{
+        bottom:100px;
+    }
+}

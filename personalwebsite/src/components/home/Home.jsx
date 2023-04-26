@@ -12,7 +12,7 @@ const Home = () => {
             <span className="home__education">I'm a Software Engineering Student</span>
             <HeaderSocial/>
             <a href="#contact" className="btn">Contact Me</a>
-            <ScrollDown />
+            <ScrollDown className='sc' />
 
         </div>
         <div className="section__bg-wrapper">

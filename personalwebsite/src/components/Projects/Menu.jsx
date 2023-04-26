@@ -1,4 +1,5 @@
 import projet1 from '../../assets/projet1.PNG'
+import projet2 from '../../assets/projet2.png'
 
 const Menu = [
     {
@@ -9,7 +10,7 @@ const Menu = [
     },
     {
         id: 2,
-        image: '',
+        image: projet2,
         title: "Water drink reminder",
         category: "UX/UI Design",
     },

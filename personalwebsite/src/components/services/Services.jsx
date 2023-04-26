@@ -8,19 +8,19 @@ const data = [
       id: 1,
       logo:logo1,
       title: "Web Development",
-      description:"Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+      description:"create, build, and maintain websites. web design, web publishing, web programming, and database management.",
     },
     {
         id: 2,
         logo:logo2,
         title: "UX/UI Design",
-        description:"Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+        description:"create seamless and intuitive digital experiences that meet user expectations and drive business success",
       },
       {
         id: 3,
         logo:logo3,
         title: "JAVA Development",
-        description:"Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+        description:"object-oriented programming, data structures, algorithms. developing desktop applications.",
       },
 ];
 const Services = () => {
