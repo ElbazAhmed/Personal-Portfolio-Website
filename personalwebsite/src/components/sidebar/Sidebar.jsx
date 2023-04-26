@@ -14,12 +14,17 @@ const Sidebar = () => {
                 <ul className="nav__list">
                     <li className="nav__item">
                         <a href="#home" className="nav__link">
-                        <i class="uil uil-home"></i>
+                        <i class='bx bx-home-alt' ></i>
                         </a>
                     </li>
                     <li className="nav__item">
                         <a href="#about" className="nav__link">
-                        <i class="uil uil-user-check"></i>
+                        <i class='bx bx-user' ></i>
+                        </a>
+                    </li>
+                    <li className="nav__item">
+                        <a href="#skills" className="nav__link">
+                        <i class="uil uil-award"></i>
                         </a>
                     </li>
                     <li className="nav__item">

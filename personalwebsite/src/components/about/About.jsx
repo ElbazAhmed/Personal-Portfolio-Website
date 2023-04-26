@@ -10,8 +10,8 @@ const About = () => {
             <img src={Me} alt="" className="about__img" />
             <div className="about__data grid">
                 <div className="about__info">
-                    <p className="about__description">I'm Ahmed Elbaz, Software engineering student at INPT (National Institute of Posts and Telecommunications)</p>
-                    <a href="#" className="btn">Download CV</a>
+                    <p className="about__description">I'm Ahmed Elbaz, Software engineering student at INPT (National Institute of Posts and Telecommunications). I have a passion for computer programming and information technology.</p>
+                    <a href="#" className="btn">Download CV <i class="uil uil-file-download-alt"></i></a>
                 </div>
                 <div className="about__skills grid">
                     <div className="skills__data">
