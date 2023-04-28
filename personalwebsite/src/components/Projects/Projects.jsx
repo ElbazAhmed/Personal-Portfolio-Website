@@ -21,7 +21,7 @@ const Projects = () => {
         </div>
         <div className="work__container grid">
             {items.map((ele)=>{
-                const{id,image,title,category}=ele;
+                const{id,image,title,category,url}=ele;
                 return(
                     <div className="work__card" key={id}>
                         <div className="work__thumbnail">
@@ -30,7 +30,7 @@ const Projects = () => {
                         </div>
                         <span className="work__category">{category}</span>
                         <h3 className="work__title">{title}</h3>
-                        <a href="#" className="work__button">
+                        <a href={url} className="work__button">
                         <i class='bx bx-link-external'></i>
                         </a>
                     </div>

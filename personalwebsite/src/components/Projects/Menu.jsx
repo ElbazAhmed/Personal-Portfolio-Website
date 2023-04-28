@@ -7,12 +7,7 @@ const Menu = [
       image: projet1,
       title: "Personal Website",
       category: "Web Development",
-    },
-    {
-        id: 2,
-        image: '',
-        title: "Water drink reminder",
-        category: "UX/UI Design",
+      url:'https://github.com/ElbazAhmed/Personal-Portfolio-Website',
     },
 ]
 
