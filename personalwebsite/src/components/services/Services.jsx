@@ -20,7 +20,7 @@ const data = [
         id: 3,
         logo:logo3,
         title: "JAVA Development",
-        description:"object-oriented programming, data structures, algorithms. developing desktop applications.",
+        description:"object-oriented programming, data structures, algorithms, desktop applications.",
       },
 ];
 const Services = () => {

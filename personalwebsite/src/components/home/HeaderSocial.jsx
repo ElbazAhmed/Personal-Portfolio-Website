@@ -9,10 +9,10 @@ const HeaderSocial = () => {
         <a href="https://www.linkedin.com/in/ahmed-elbaz-1b2b0620a/" className="home__social-link" target="_blank">
         <i class="uil uil-linkedin"></i>
         </a>
-        <a href="#" className="home__social-link" target="_blank">
+        <a href="https://twitter.com/ahmedel66696056" className="home__social-link" target="_blank">
         <i class="uil uil-twitter"></i>
         </a>
-        <a href="#" className="home__social-link" target="_blank">
+        <a href="https://stackoverflow.com/users/20664580/ahmed-elbaz" className="home__social-link" target="_blank">
         <i class='bx bxl-stack-overflow'></i>
         </a>
     </div>

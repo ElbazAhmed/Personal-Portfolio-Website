@@ -10,7 +10,7 @@ const Footer = () => {
                     <a href="#about" className="footer__link">About</a>
                 </li>
                 <li>
-                    <a href="#Skills" className="footer__link">Skills</a>
+                    <a href="#skills" className="footer__link">Skills</a>
                 </li>
                 <li>
                     <a href="#services" className="footer__link">Services</a>
@@ -24,7 +24,7 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/ahmed-elbaz-1b2b0620a/" className="footer__social-link" target="_blank">
                     <i class="uil uil-linkedin"></i>
                 </a>
-                <a href="#" className="footer__social-link" target="_blank">
+                <a href="https://stackoverflow.com/users/20664580/ahmed-elbaz" className="footer__social-link" target="_blank">
                     <i class='bx bxl-stack-overflow'></i>
                 </a>
             </div>
