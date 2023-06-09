@@ -1,5 +1,5 @@
 import projet1 from '../../assets/projet1.PNG'
-import projet2 from '../../assets/projet2.PNG'
+import projet2 from '../../assets/project2.PNG'
 
 const Menu = [
     {
