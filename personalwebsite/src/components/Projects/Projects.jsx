@@ -30,7 +30,7 @@ const Projects = () => {
                         </div>
                         <span className="work__category">{category}</span>
                         <h3 className="work__title">{title}</h3>
-                        <a href={url} className="work__button">
+                        <a href={url} className="work__button" target="_blank">
                         <i class='bx bx-link-external'></i>
                         </a>
                     </div>
