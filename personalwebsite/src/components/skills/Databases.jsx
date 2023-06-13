@@ -1,6 +1,5 @@
 import React from 'react'
 import mongo from '../../assets/logos/mongo.svg'
-import oracle from '../../assets/logos/oracle.svg'
 import mysql from '../../assets/logos/mysql.svg'
 
 
@@ -14,12 +13,6 @@ const Databases = () => {
                 <i class="uil"><img src={mongo} alt="mongo" /></i>
                 <div>
                     <h3 className="skills__name">MongoDB</h3>
-                </div>
-                </div>
-                <div className="skills__dataa">
-                <i class="uil"><img src={oracle} alt="oracle" /></i>
-                <div>
-                    <h3 className="skills__name">Oracle</h3>
                 </div>
                 </div>
                 <div className="skills__dataa">
