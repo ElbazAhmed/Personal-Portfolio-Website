@@ -60,11 +60,11 @@
     display:block;
 }
 .development{
-    width:80%;
+    width:70%;
     background-color:var(--title-color);
 }
 .ui__design{
-    width:70%;
+    width:60%;
     background-color:var(--title-color);
 }
 .java__dev{
